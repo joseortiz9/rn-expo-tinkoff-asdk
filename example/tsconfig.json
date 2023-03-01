@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "rn-expo-tinkoff-asdk": ["../src/index"],
+      "rn-expo-tinkoff-asdk/*": ["../src/*"]
+    }
+  }
+}
